@@ -1,12 +1,12 @@
 1. Bienvenida e Introducción
-	-> 1. ¿Por qué aprender Programación Orientada a Objetos?
+	->1. ¿Por qué aprender Programación Orientada a Objetos?
 			
 			Vas a programar más rápido. Tener un análisis previo de lo que estás realizando te ayudará a generar código mucho más veloz
 
 			Dejas de ser Programador Jr. Podrás responder preguntas como ¿Qué es encapsulamiento?, ¿Qué es Abstracción?, ¿Qué es Herencia?, ¿Qué es Polimorfismo? en futuras entrevistas de trabajo
 
 			Dejar de Copiar y Pegar Código.
-	-> 2. ¿Qué resuelve la Programación Orientación a Objetos?
+	->2. ¿Qué resuelve la Programación Orientación a Objetos?
 
 			La programación Orientada a Objetos nace de los problemas creados por la programación estructurada y nos ayuda a resolver cierto problemas como:
 
@@ -16,7 +16,7 @@
 
 				Difícil de mantener.
 
-	-> 3. Paradigma Orientado a Objetos
+	->3. Paradigma Orientado a Objetos
 
 			La Programación Orientada a Objetos viene de una filosofía o forma de pensar que es la Orientación a Objetos y esto surge a partir de los problemas que necesitamos plasmar en código.
 
@@ -35,7 +35,7 @@
 			Herencia        = Pasar propiedades entre clases
 			Polimorfismo    = Las diferentes formas que pude tner un objeto.
 	
-	-> 4. Lenguajes Orientados a Objetos
+	->4. Lenguajes Orientados a Objetos
 
 		Algunos de los lenguajes de programación Orientados a Objetos son:
 
@@ -56,4 +56,49 @@
 			C#
 			Ruby
 			Kotlin
-	-> 5. 
+	->5. Instalando Visual Studio Code
+
+		  Pues que comience la aventura y digo aventura porque te darás cuenta de lo emocionante que será poder trabajar 4 lenguajes de programación en un solo entorno de desarrollo y sí, precisamente eso es lo que nos resuelve Visual Studio Code el cual será nuestro campeón en este curso.
+	
+	->6. Diagramas de Modelado
+
+		  OMT: Object Modeling Techniques. Es una metodología para el análisis orientado a objetos.
+
+		  UML: Unified Modeling Language o Lenguaje de Modelado Unificado. Tomó las bases y técnicas de OMT unificándolas. Tenemos más opciones de diagramas como lo son Clases, Casos de Uso, Objetos, Actividades, Iteración, Estados, Implementación.
+	->7. UML
+		 https://platzi.com/clases/1474-oop/17219-uml/
+
+2. Orientación a Objetos		
+	
+	->8. Objetos
+		Los Objetos son aquellos que tienen propiedades y comportamientos, también serán sustantivos.
+
+		Pueden ser Físicos o Conceptuales
+		Las Propiedades también pueden llamarse atributos y estos también serán sustantivos. Algunos atributos o propiedades son nombre, tamaño, forma, estado, etc. Son todas las características del objeto.
+
+		Los Comportamientos serán todas las operaciones que el objeto puede hacer, suelen ser verbos o sustantivos y verbo. Algunos ejemplos pueden ser que el usuario pueda hacer login y logout.
+
+	 ->9. Abstracción y Clases
+		  Una Clase se el modelo por el cual nuestros objetos se van a construir y nos van a permitir generar más objetos.
+
+		  Analizamos Objetos para crear Clases. Las Clases son los modelos sobres los cuales construiremos nuestros objetos.
+
+		  Abstracción es cuando separamos los datos de un objeto para generar un molde.
+
+	  ->10. Modularidad
+			La modularidad va muy relacionada con las clases y es un principio de la Programación Orientado a Objetos y va de la mano con el Diseño Modular que significa dividir un sistema en partes pequeñas y estas serán nuestros módulos pudiendo funcionar de manera independiente.
+
+			La modularidad de nuestro código nos va a permitir
+
+			Reutilizar
+			Evitar colapsos
+			Hacer nuestro código más mantenible
+			Legibilidad
+			Resolución rápida de problemas
+			Una buena práctica es separando las clases en archivos diferentes.	
+	 ->11. Analizando Uber en Objetos
+	 ->12. Reto 1: identificando objetos
+	 	   https://platzi.com/clases/1474-oop/16676-reto-1-identificando-objetos/
+	 ->13. Clases en UML y su sintaxis en código
+	 	   
+		 
