@@ -1,3 +1,4 @@
+<?php
 class Car{
     public $id;
     public $license;
@@ -14,3 +15,4 @@ class Car{
         return $car;
     }
 }
+?>
