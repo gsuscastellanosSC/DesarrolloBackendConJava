@@ -1,3 +1,5 @@
+package api;
+
 public class Doctor {
     //Atributos
     private static int id = 0; //Autoincrement
@@ -18,5 +20,9 @@ public class Doctor {
     }
     public void showAll() {
         System.out.println("id: "+ id + " name: "+ name + " speciality: " + speciality);
+    }
+
+    public void setName(String name) {
+        this.name = name;
     }
 }

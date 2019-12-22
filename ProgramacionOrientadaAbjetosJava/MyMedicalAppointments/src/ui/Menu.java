@@ -4,14 +4,14 @@ import java.util.Scanner;
 
 public class Menu {
 
-    static public final String[] MONTHS = {"Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre","Diciembre"};
+    static public String[] MONTHS = {"Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre","Diciembre"};
     public static void showMenu(){
         System.out.println("Welcome to My Appointments");
         System.out.println("Selecciona la opción deseada");
 
         int response = 0;
         do {
-            System.out.println("1. Doctor");
+            System.out.println("1. api.Doctor");
             System.out.println("2. Patient");
             System.out.println("0. Salir");
 
@@ -20,7 +20,7 @@ public class Menu {
 
             switch (response){
                 case 1:
-                    System.out.println("Doctor");
+                    System.out.println("api.Doctor");
                     break;
                 case 2:
                     response = 0;
