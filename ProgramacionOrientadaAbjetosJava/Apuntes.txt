@@ -1,0 +1,107 @@
+Clase#1
+    Programación orientada a objetos en Java
+    ¡Te damos la bienvenida al Curso de Java SE Orientado a Objetos!
+
+    Los paradigmas de programación son una teoría que nos suministra una base y modelo estandarizado para resolver problemas con nuestro código.
+
+    La Programación Orientada a Objetos (POO) nos ayuda a analizar y entender todos estos problemas para resolverlos de la forma más sostenible en el futuro. Java surgió con este paradigma y es uno de los lenguajes que define en gran manera el rumbo que sigue la POO.
+
+    Este paradigma se compone de 4 elementos (que analizaremos a fondo más adelante):
+
+    Clases
+    Propiedades
+    Métodos
+    Objetos
+    Además, se basa en los siguientes 4 pilares:
+
+    Encapsulamiento
+    Abstracción
+    Herencia
+    Polimorfismo
+    Recuerda que antes de tomar este curso es muy recomendado que tomes el Curso de Introducción a Java SE y el Curso de Programación Orientada a Objetos: POO. Al terminar este curso puedes continuar con el Curso de Java SE: Programación Funcional.
+
+Clase#2
+    ¿Qué es un Objeto?
+    Los Objetos son todas las cosas físicas o conceptuales que tienen propiedades y comportamientos. Por ejemplo: usuario, sesión, auto, etc.
+
+    Las Propiedades o atributos son las características de nuestros objetos. Estos atributos siempre serán sustantivos y pueden tener diferentes valores que harán referencia a nombres, tamaños, formas y estados.
+
+    Por ejemplo: el color del auto es verde o rojo (color es el atributo, verde y rojo son posibles valores para este atributo).
+
+    Los Comportamientos o métodos serán todas las operaciones de nuestros objetos que solemos llamar usando verbos o sustantivos y verbos. Por ejemplo: los métodos del objeto sesión pueden ser login(), logout(), makeReport(), etc.
+
+Clase#3
+   Abstracción: ¿Qué es una Clase?
+    La Abstracción se trata de analizar objetos de forma independiente, sus propiedades, características y comportamientos, para abstraer su composición y generar un modelo, lo que traducimos a código como clases.
+
+    Las Clases son los modelos sobre los cuales construimos nuestros objetos, es decir, las clases son los “moldes” que nos permiten generar objetos. Cada clase debe tener identidad (con un nombre de clase único usando Upper Camel Case), estado (con sus atributos) y comportamiento (con sus métodos y operaciones).
+
+    Por ejemplo:
+
+    El ejemplo de clase más típico en Internet:
+
+    Nombre de la clase: Person
+    Atributos: Name, Age
+    Operaciones: Walk() 
+Clase#4
+    Modularidad
+    La Modularidad consiste en dividir nuestro programa en diferentes módulos de forma que puedan unirse o separarse sin romperse entre ellos o perder alguna funcionalidad.
+
+    La Modularidad en Programación Orientada a Objetos nos ayuda a:
+
+    Reutilizar código.
+    Evitar colapsos.
+    Que nuestro código sea mantenible.
+    Mejorar la legibilidad.
+    Resolución rápida de problemas.
+
+Clase#5
+
+Clase#6
+
+Clase#7
+
+Clase#8
+
+Clase#9
+
+Clase#10
+
+Clase#11
+
+Clase#12
+
+Clase#13
+
+Clase#14
+
+Clase#15
+
+Clase#16
+
+Clase#17
+
+Clase#18
+
+Clase#19
+
+Clase#20
+Clase#21
+Clase#22
+Clase#23
+Clase#24
+Clase#25
+Clase#26
+Clase#27
+Clase#28
+Clase#29
+Clase#30
+Clase#31
+Clase#32
+Clase#33
+Clase#34
+Clase#35
+Clase#36
+Clase#37
+Clase#38
+Clase#39

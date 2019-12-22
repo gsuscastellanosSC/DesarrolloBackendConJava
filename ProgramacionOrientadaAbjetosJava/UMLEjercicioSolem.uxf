@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?><diagram program="umlet" version="13.3">
+  <zoom_level>7</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>609</x>
+      <y>140</y>
+      <w>147</w>
+      <h>133</h>
+    </coordinates>
+    <panel_attributes>Personas
+--
+nombre
+genero
+edad
+peso
+cantidadPersonas
+--
+SubirPersona()
+BajarPersona()
+VerPersonasFueraVehiculo()
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>154</x>
+      <y>371</y>
+      <w>147</w>
+      <h>133</h>
+    </coordinates>
+    <panel_attributes>Carro
+--
+capacidadDePersonas
+pesoMaximo
+plazas
+ruedas
+Cantidadehículos
+--
+
+VerPersonasEnLosVehículos()
+VerDisponibilidad(vehículos disponibles, plazas, peso)
+VerPersonasFueraVehiculo()</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>504</x>
+      <y>371</y>
+      <w>147</w>
+      <h>133</h>
+    </coordinates>
+    <panel_attributes>Bicicleta
+--
+capacidadDePersonas
+pesoMaximo
+plazas
+ruedas
+Cantidadehículos
+--
+
+VerPersonasEnLosVehículos()
+VerDisponibilidad(vehículos disponibles, plazas, peso)
+VerPersonasFueraVehiculo()</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>322</x>
+      <y>371</y>
+      <w>147</w>
+      <h>133</h>
+    </coordinates>
+    <panel_attributes>Moto
+--
+capacidadDePersonas
+pesoMaximo
+plazas
+ruedas
+Cantidadehículos
+--
+VerPersonasEnLosVehículos()
+VerDisponibilidad(vehículos disponibles, plazas, peso)
+VerPersonasFueraVehiculo()
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>343</x>
+      <y>182</y>
+      <w>273</w>
+      <h>35</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>370.0;30.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>98</x>
+      <y>105</y>
+      <w>917</w>
+      <h>427</h>
+    </coordinates>
+    <panel_attributes>Empresa
+--
+bg=orange</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>336</x>
+      <y>217</y>
+      <w>252</w>
+      <h>168</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>340.0;220.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>301</x>
+      <y>217</y>
+      <w>105</w>
+      <h>168</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>130.0;220.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>224</x>
+      <y>238</y>
+      <w>70</w>
+      <h>147</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;190.0;80.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLInterface</id>
+    <coordinates>
+      <x>273</x>
+      <y>147</y>
+      <w>70</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>Vehículos
+--
+Operation1
+Operation2</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
