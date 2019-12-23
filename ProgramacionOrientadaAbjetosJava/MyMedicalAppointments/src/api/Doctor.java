@@ -1,28 +1,58 @@
 package api;
+import java.util.ArrayList;
+import java.util.Date;
 
-public class Doctor {
+public class Doctor extends User{
     //Atributos
-    private static int id = 0; //Autoincrement
-    String name;
-    String speciality;
+    private String speciality;
+
 
     //Constructor
-    public Doctor(String name, String speciality) {
+    public Doctor(String name, String mail) {
         // TODO Auto-generated constructor stub
-        this.id ++;
-        this.name = name;
+        super(name, mail);
         this.speciality = speciality;
     }
 
     //Metodos
     public void showName() {
-        System.out.println(name);
+        System.out.println(getName());
     }
     public void showAll() {
-        System.out.println("id: "+ id + " name: "+ name + " speciality: " + speciality);
+        System.out.println("name: "+ getName() + " speciality: " + speciality);
     }
 
-    public void setName(String name) {
-        this.name = name;
+    ArrayList<AvailableAppointment> availableAppointments = new ArrayList<>();
+    public void addAvailableAppointment(Date date, String time){
+        availableAppointments.add(new AvailableAppointment(date, time));
+    }
+
+    public ArrayList<AvailableAppointment> getAvailableAppointments(){
+        return availableAppointments;
+    }
+    public class AvailableAppointment{
+        private Date date;
+        private String time;
+
+        public AvailableAppointment(Date date, String time){
+            this.date = date;
+            this.time = time;
+        }
+
+        public Date getDate() {
+            return date;
+        }
+
+        public void setDate(Date date) {
+            this.date = date;
+        }
+
+        public String getTime() {
+            return time;
+        }
+
+        public void setTime(String time) {
+            this.time = time;
+        }
     }
 }

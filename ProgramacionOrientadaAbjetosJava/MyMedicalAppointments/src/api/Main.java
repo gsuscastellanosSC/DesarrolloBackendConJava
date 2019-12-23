@@ -1,24 +1,26 @@
 package api;
 
+import java.util.Date;
+
 import static ui.Menu.*;
 public class Main {
     public static void main(String[] args) {
         Doctor myDoctor = new Doctor("Jesús", "Cardiologo");
-        myDoctor.showName();
-        myDoctor.showAll();
+        //myDoctor.showName();
+        //myDoctor.showAll();
         Doctor myDoctor2 = new Doctor("Juan", "Cardiologo");
-        myDoctor.showName();
-        myDoctor2.showAll();
+        //myDoctor.showName();
+        //myDoctor2.showAll();
 
-        myDoctor=myDoctor2;
+        Patient patient = new Patient("Alejanra", "ale@hotmail.com");
 
-        myDoctor.showAll();
-        myDoctor2.showAll();
+        myDoctor.addAvailableAppointment(new Date(), "4pm");
+        myDoctor.addAvailableAppointment(new Date(), "10am");
+        myDoctor.addAvailableAppointment(new Date(), "1pm");
 
-        myDoctor2.setName("Otro Nombre");
-
-        myDoctor.showAll();
-        myDoctor2.showAll();
-        showMenu();
+        for( Doctor.AvailableAppointment aA : myDoctor.getAvailableAppointments()){
+            System.out.println(aA.getDate() + " " + aA.getTime());
+        }
+        //showMenu();
     }
 }
