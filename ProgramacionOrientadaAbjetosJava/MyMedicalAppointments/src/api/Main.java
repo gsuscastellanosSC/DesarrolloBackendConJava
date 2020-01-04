@@ -21,7 +21,7 @@ public class Main {
         for( Doctor.AvailableAppointment aA : myDoctor.getAvailableAppointments()){
             System.out.println(aA.getDate() + " " + aA.getTime());
         }
-        System.out.println(patient);
+        System.out.println(myDoctor);
 
         //showMenu();
 
