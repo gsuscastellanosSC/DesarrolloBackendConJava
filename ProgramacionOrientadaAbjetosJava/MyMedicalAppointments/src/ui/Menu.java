@@ -11,7 +11,7 @@ public class Menu {
 
         int response = 0;
         do {
-            System.out.println("1. api.Doctor");
+            System.out.println("1. model.Doctor");
             System.out.println("2. Patient");
             System.out.println("0. Salir");
 
@@ -20,7 +20,7 @@ public class Menu {
 
             switch (response){
                 case 1:
-                    System.out.println("api.Doctor");
+                    System.out.println("model.Doctor");
                     break;
                 case 2:
                     response = 0;

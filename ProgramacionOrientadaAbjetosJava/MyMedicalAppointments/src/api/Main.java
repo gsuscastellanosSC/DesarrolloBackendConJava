@@ -1,8 +1,10 @@
 package api;
 
+import model.Doctor;
+import model.Patient;
+
 import java.util.Date;
 
-import static ui.Menu.*;
 public class Main {
     public static void main(String[] args) {
         Doctor myDoctor = new Doctor("Jesús", "Cardiologo");
