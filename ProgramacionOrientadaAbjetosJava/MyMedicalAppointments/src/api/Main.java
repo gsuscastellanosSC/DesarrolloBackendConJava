@@ -1,7 +1,6 @@
 package api;
 
-import model.Doctor;
-import model.Patient;
+import model.*;
 
 import java.util.Date;
 
@@ -25,6 +24,23 @@ public class Main {
         }
         System.out.println(myDoctor);
         myDoctor.showDataUser();
+
+        User user1 = new User("Jesus", "jesuscastellanospaez@hotmail.com") {
+            @Override
+            public void showDataUser() {
+                System.out.println("Doctor\n");
+                System.out.println("Hospital: cruz Verde");
+                System.out.println("Departamento: Greatría");
+            }
+        };
+        user1.showDataUser();
+
+        ISchedulable iSchedulable = new ISchedulable() {
+            @Override
+            public void schedulable(Date date, String time) {
+
+            }
+        };
 
         //showMenu();
 
