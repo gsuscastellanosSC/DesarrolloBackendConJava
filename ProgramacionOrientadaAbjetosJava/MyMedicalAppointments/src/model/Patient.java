@@ -11,6 +11,12 @@ public class Patient extends User{
 
     }
 
+    @Override
+    public void showDataUser() {
+        System.out.println("Paciente");
+        System.out.println("Historia clinica...");
+    }
+
     public String getBirthday() {
         return birthday;
     }

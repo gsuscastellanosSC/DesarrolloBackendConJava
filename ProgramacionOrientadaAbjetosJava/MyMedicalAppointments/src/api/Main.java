@@ -24,6 +24,7 @@ public class Main {
             System.out.println(aA.getDate() + " " + aA.getTime());
         }
         System.out.println(myDoctor);
+        myDoctor.showDataUser();
 
         //showMenu();
 
