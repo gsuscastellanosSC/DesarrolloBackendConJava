@@ -72,7 +72,7 @@ public class Menu {
                         emailCorrect = true;
                         //Obtener el usuario logeado;
                         doctorLogged = d;
-                        //ShowDoctorMenu
+                        UIDoctorMenu.showDoctorMenu();
                     }
                 }
             }
@@ -82,7 +82,7 @@ public class Menu {
                     if(p.getEmail().equals(email)){
                         emailCorrect = true;
                         patientLogged = p;
-                        //ShowPatientMenu;
+                        UIPatientMenu.showPatientMenu();
                     }
                 }
             }
