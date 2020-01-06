@@ -14,7 +14,6 @@ public class Doctor extends User {
     public Doctor(String name, String mail) {
         // TODO Auto-generated constructor stub
         super(name, mail);
-        this.speciality = speciality;
     }
 
     //Metodos

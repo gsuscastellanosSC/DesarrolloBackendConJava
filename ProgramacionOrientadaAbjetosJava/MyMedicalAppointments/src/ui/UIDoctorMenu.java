@@ -10,7 +10,7 @@ public class UIDoctorMenu {
     public  static ArrayList<Doctor> doctorsAvailableAppointments = new ArrayList<>();
 
     public  static void showDoctorMenu(){
-        int responde = 0;
+        int response = 0;
         do{
             System.out.println("\n\n");
             System.out.println("Doctor");
@@ -20,10 +20,11 @@ public class UIDoctorMenu {
             System.out.println("0. Logout");
 
             Scanner sc = new Scanner(System.in);
-            responde = Integer.valueOf(sc.nextLine());
+            response = Integer.valueOf(sc.nextLine());
 
-            switch (responde){
+            switch (response){
                 case 1:
+                    showAddAvailableAppointmentsMenu();
                     break;
                 case 2:
                     break;
@@ -32,11 +33,11 @@ public class UIDoctorMenu {
                     break;
             }
 
-        }while (responde != 0);
+        }while (response != 0);
     }
 
     private static void showAddAvailableAppointmentsMenu(){
-        int responde = 0;
+        int response = 0;
         do {
             System.out.println();
             System.out.println("::Add Available Appointment");
@@ -49,12 +50,12 @@ public class UIDoctorMenu {
             System.out.println("0. Return");
 
             Scanner sc = new Scanner(System.in);
-            responde = Integer.valueOf(sc.nextLine());
+            response = Integer.valueOf(sc.nextLine());
 
-            if(responde > 0 && responde < 4){
+            if(response > 0 && response < 4){
                 //1, 2 ,3;
-                int monthSElected = responde;
-                System.out.println(monthSElected + ". " + Menu.MONTHS[monthSElected]);
+                int monthSElected = response;
+                System.out.println(monthSElected + ". " + Menu.MONTHS[monthSElected-1]);
 
                 System.out.println("Insert the date available: [dd/mm/yyyy]");
                 String date = sc.nextLine();
@@ -75,11 +76,11 @@ public class UIDoctorMenu {
                 Menu.doctorLogged.addAvailableAppointment(date, time);
                 checkDoctorAvailableAppointments(Menu.doctorLogged);
 
-            }else if(responde == 0){
+            }else if(response == 0){
                 showDoctorMenu();
             }
 
-        }while (responde != 0);
+        }while (response != 0);
     }
 
     private static void checkDoctorAvailableAppointments(Doctor doctor){

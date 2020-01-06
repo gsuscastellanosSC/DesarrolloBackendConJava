@@ -1,12 +1,24 @@
 package api;
 
 import model.*;
+import ui.Menu;
 
 import java.util.Date;
 
 public class Main {
     public static void main(String[] args) {
-        Doctor myDoctor = new Doctor("Jesús", "Cardiologo");
+
+
+        Menu.showMenu();
+
+
+    }
+}
+
+
+
+/*
+  Doctor myDoctor = new Doctor("Jesús", "Cardiologo");
         //myDoctor.showName();
         //myDoctor.showAll();
         Doctor myDoctor2 = new Doctor("Juan", "Cardiologo");
@@ -40,10 +52,4 @@ public class Main {
             public void schedulable(Date date, String time) {
 
             }
-        };
-
-        //showMenu();
-
-
-    }
-}
+        }; */
