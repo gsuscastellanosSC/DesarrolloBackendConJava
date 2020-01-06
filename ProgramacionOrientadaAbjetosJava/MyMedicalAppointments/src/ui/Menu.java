@@ -82,7 +82,7 @@ public class Menu {
                     if(p.getEmail().equals(email)){
                         emailCorrect = true;
                         patientLogged = p;
-                        //ShowPatientMenu;
+                        UIPatientMenu.showPatientMenu();
                     }
                 }
             }
