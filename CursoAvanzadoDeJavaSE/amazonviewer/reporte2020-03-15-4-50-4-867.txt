@@ -1,0 +1,15 @@
+Date: dom, 3 mar 2020
+
+
+
+ :: BOOK ::
+ Title: Book 1
+ Editorial: editorial 1
+ Edition Date: Sun Mar 15 16:49:54 COT 2020
+ Authors: 	author 0 	author 1 	author 2 
+
+ :: BOOK ::
+ Title: Book 2
+ Editorial: editorial 2
+ Edition Date: Sun Mar 15 16:49:54 COT 2020
+ Authors: 	author 0 	author 1 	author 2 
