@@ -1,8 +1,8 @@
-package comm.jesus.amazonviewer.model;
+package com.anncode.amazonviewer.model;
 
 public class Film {
-
-	private String title ;
+	
+	private String title;
 	private String genre;
 	private String creator;
 	private int duration;
@@ -12,12 +12,12 @@ public class Film {
 	
 	
 	public Film(String title, String genre, String creator, int duration) {
+		super();
 		this.title = title;
 		this.genre = genre;
 		this.creator = creator;
 		this.duration = duration;
 	}
-	
 	
 	public String getTitle() {
 		return title;
@@ -56,18 +56,18 @@ public class Film {
 		}else {
 			visto = "No";
 		}
+		
 		return visto;
+	}
+	
+	public boolean getIsViewed() {
+		return viewed;
 	}
 	public void setViewed(boolean viewed) {
 		this.viewed = viewed;
 	}
+	
+	
+	
 
-	
-	@Override
-	public String toString() {
-		return "Film [title=" + title + ", genre=" + genre + ", creator=" + creator + ", duration=" + duration
-				+ ", year=" + year + ", viewed=" + viewed + "]";
-	}
-	
-	
 }

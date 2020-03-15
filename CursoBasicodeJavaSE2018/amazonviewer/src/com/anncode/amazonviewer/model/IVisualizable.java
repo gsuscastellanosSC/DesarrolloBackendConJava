@@ -1,9 +1,9 @@
-package comm.jesus.amazonviewer.model;
+package com.anncode.amazonviewer.model;
 
 import java.util.Date;
 
 public interface IVisualizable {
-	Date starToSee(Date dateI);
+	Date startToSee(Date dateI);
 	void stopToSee(Date dateI, Date dateF);
+	
 }
-
